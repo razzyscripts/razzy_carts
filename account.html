@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in/ Create an Account</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+         <div class="logo-text">
+        Razzy <span>Carts</span>
+    </div>
+
+    <svg class="logo-arrow" viewBox="0 0 220 35">
+        <path d="M15 28 Q110 2 205 18" />
+        <polygon points="198,12 218,18 199,25" />
+    </svg>
+    </div>
+
+    <div class="search-box">
+
+        <select class="category">
+            <option>All</option>
+            <option>Electronics</option>
+            <option>Gaming</option>
+            <option>Fashion</option>
+            <option>House</option>
+            <option>Books</option>
+            <option>Health & Beauty</option>
+        </select>
+        
+        <input type="text" placeholder="Search Razzy Carts">
+
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+    <div class="header-links">
+
+        <a href="index.html"> 
+            <i class="fa-solid fa-house"></i>
+            Home
+
+        </a>
+
+        <a href="account.html">
+            <i class="fa-solid fa-user"></i>
+            Account
+        </a>
+
+                <a href="wishlist.html" class="wishlist-link">
+    ♡ Wishlist <span id="wishlist-count">0</span>
+</a>
+
+        <a href="cart.html" class="cart-link">
+    🛒 Cart <span id="cart-count">0</span>
+</a>
+
+    </div>
+
+</header>
+<!-- ================= SECOND NAVIGATION ================= -->
+<div class="second-nav">
+
+    <div class="nav-left">
+
+        <a href="Categories/categorie.html" class="dropbtn">
+    <i class="fa-solid fa-bars"></i>
+    All Categories
+</a>
+
+        <a href="#featured-products">Featured Products</a>
+
+        <a href="news.html">Blog</a>
+
+        <a href="services.html">Services</a>
+
+    </div>
+
+    <div class="nav-right">
+
+        <a href="Categories/backtoschool.html">
+            🔥 Back-to-School Sale - Up to 50% Off
+        </a>
+
+    </div>
+
+</div>
+ <!-- ACCOUNT PAGE -->
+
+    <main class="account-page">
+
+        <div class="account-container">
+
+            <div class="account-header">
+
+                <h1>Welcome to Razzy Carts</h1>
+
+                <p>
+                    Sign in to your account or create a new one.
+                </p>
+
+            </div>
+
+
+            <div class="account-box">
+
+                <!-- SIGN IN -->
+
+                <div class="account-section">
+
+                    <h2>Sign In</h2>
+
+                    <p>Already have an account?</p>
+
+                    <form>
+
+                        <label for="email">Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                        >
+
+                        <label for="password">Password</label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                        >
+
+                        <button type="submit">
+                            Sign In
+                        </button>
+
+                    </form>
+
+                    <a href="#" class="forgot-password">
+                        Forgot your password?
+                    </a>
+
+                </div>
+
+
+                <!-- DIVIDER -->
+
+                <div class="account-divider">
+                    <span>OR</span>
+                </div>
+
+
+                <!-- CREATE ACCOUNT -->
+
+                <div class="account-section">
+
+                    <h2>Create Account</h2>
+
+                    <p>New to Razzy Carts?</p>
+
+                    <form>
+
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your full name"
+                        >
+
+                        <label for="new-email">Email</label>
+
+                        <input
+                            type="email"
+                            id="new-email"
+                            placeholder="Enter your email"
+                        >
+
+                        <label for="new-password">Password</label>
+
+                        <input
+                            type="password"
+                            id="new-password"
+                            placeholder="Create a password"
+                        >
+
+                        <button type="submit">
+                            Create Account
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>Razzy Carts</h3>
+
+            <p>Your one-stop destination for shopping, gaming, electronics and more.</p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="Categories/categorie.html">Categories</a>
+            <a href="#">Products</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>More On Us</h3>
+
+            <a href="about.html">About us</a>
+            <a href="news.html">Blog/News</a>
+            <a href="services.html">Services</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <p>Email: rajirazaq500@gmail.com</p>
+            <p>Phone: 09030469209</p>
+            <p>Location: 21 AVA street, GMT Software building</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>© 2026 Razzy Carts. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+<script src="JS folder/script.js"></script>
+<script src="JS folder/cart.js"></script>
+<script src="JS folder/whislist.js"></script>
+
+</body>
+</html>

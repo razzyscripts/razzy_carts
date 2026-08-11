@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razzy Carts - Shop Smart</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+         <div class="logo-text">
+        Razzy <span>Carts</span>
+    </div>
+
+    <svg class="logo-arrow" viewBox="0 0 220 35">
+        <path d="M15 28 Q110 2 205 18" />
+        <polygon points="198,12 218,18 199,25" />
+    </svg>
+    </div>
+
+    <div class="search-box">
+
+    <select class="category">
+        <option>All</option>
+    </select>
+
+    <input type="text" placeholder="Search Razzy Carts">
+
+    <button type="button">🔍</button>
+
+</div>
+
+    <div class="header-links">
+
+        <a href="index.html"> 
+            <i class="fa-solid fa-house"></i>
+            Home
+
+        </a>
+
+        <a href="account.html">
+            <i class="fa-solid fa-user"></i>
+            Account
+        </a>
+
+        <a href="wishlist.html" class="wishlist-link">
+    ♡ Wishlist <span id="wishlist-count">0</span>
+</a>
+
+        <a href="cart.html" class="cart-link">
+    🛒 Cart <span id="cart-count">0</span>
+</a>
+
+    </div>
+
+</header>
+<!-- ================= SECOND NAVIGATION ================= -->
+<div class="second-nav">
+
+    <div class="nav-left">
+
+        <a href="Categories/categorie.html" class="dropbtn">
+    <i class="fa-solid fa-bars"></i>
+    All Categories
+</a>
+
+        <a href="#featured-products">Featured Products</a>
+
+        <a href="news.html">Blog</a>
+
+        <a href="services.html">Services</a>
+
+    </div>
+
+    <div class="nav-right">
+
+        <a href="Categories/backtoschool.html">
+            🔥 Back-to-School Sale - Up to 50% Off
+        </a>
+
+    </div>
+
+</div>
+<section class="hero">
+
+    <button class="arrow left">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <div class="slides">
+        <div class="hero-slide active slide1">
+
+    <div class="hero-text">
+
+        <h1>🎒 Back-to-School Sale</h1>
+
+        <p>Save up to 50% on school shoes, backpacks, stationery and more.</p>
+
+        <button>Shop the Sale</button>
+
+    </div>
+
+</div>
+
+        <div class="hero-slide slide2">
+            <div class="hero-text">
+                <h1>Fashion Week</h1>
+                <p>Refresh your wardrobe with new arrivals.</p>
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="hero-slide slide3">
+            <div class="hero-text">
+                <h1>Tech Deals</h1>
+                <p>Save big on laptops, phones and gadgets.</p>
+                <button>View Deals</button>
+            </div>
+        </div>
+
+        <div class="hero-slide slide4">
+            <div class="hero-text">
+                <h1>Home Essentials</h1>
+                <p>Everything you need to upgrade your home.</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="arrow right">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+   <div class="dots">
+    <span class="active"></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+</section>
+<!-- ================= FEATURED CATEGORIES ================= -->
+
+<section class="featured-categories">
+
+    <h2>Featured Categories</h2>
+
+    <div class="category-grid">
+
+        <a href="Categories/gaming.html" class="category-card">
+            <div class="category-emoji">🎮</div>
+            <h3>Gaming</h3>
+        </a>
+
+        <a href="Categories/electronics.html" class="category-card">
+            <div class="category-emoji">📱</div>
+            <h3>Electronics</h3>
+        </a>
+
+        <a href="Categories/house.html" class="category-card">
+            <div class="category-emoji">🏠</div>
+            <h3>House</h3>
+        </a>
+
+        <a href="Categories/fashion.html" class="category-card">
+            <div class="category-emoji">👕</div>
+            <h3>Fashion</h3>
+        </a>
+
+        <a href="Categories/health&beauty.html" class="category-card">
+            <div class="category-emoji">🧴</div>
+            <h3>Health & Beauty</h3>
+        </a>
+
+        <a href="Categories/sport.html" class="category-card">
+            <div class="category-emoji">🏀</div>
+            <h3>Sports</h3>
+        </a>
+
+    </div>
+
+</section>
+<!-- ================= FEATURED PRODUCTS ================= -->
+
+<section class="products">
+
+    <h2 id="featured-products">Featured Products</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card iphone-card">
+
+            <div class="product-image">
+            </div>
+
+            <div class="product-badge badge-best">Best Seller</div>
+
+            <h3>Iphone 16 Pro</h3>
+
+            <div class="rating">
+                ★★★★★
+            </div>
+
+            <p class="price">$899</p>
+
+            <button>Add to Cart</button>
+
+        </div>
+
+        <div class="product-card headphones-card">
+
+            <div class="product-image">
+            </div>
+
+            <div class="product-badge badge-best">Best Seller</div>
+
+            <h3>Anker Space 1 Pro</h3>
+
+            <div class="rating">
+                ★★★★☆
+            </div>
+
+            <p class="price">$149</p>
+
+            <button>Add to Cart</button>
+
+        </div>
+
+        <div class="product-card ps6-card">
+
+            <div class="product-image">
+            </div>
+
+            <div class="product-badge badge-best">Best Seller</div>
+
+            <h3>Play Station 6 Console</h3>
+
+            <div class="rating">
+                ★★★★★
+            </div>
+
+            <p class="price">$499</p>
+
+            <button>Add to Cart</button>
+
+        </div>
+
+        <div class="product-card macbook-card">
+
+            <div class="product-image">
+            </div>
+
+            <div class="product-badge badge-new">New</div>
+
+            <h3>MacBook Pro</h3>
+
+            <div class="rating">
+                ★★★★★
+            </div>
+
+            <p class="price">$1,299</p>
+
+            <button>Add to Cart</button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>Razzy Carts</h3>
+
+            <p>Your one-stop destination for shopping, gaming, electronics and more.</p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="Categories/categorie.html">Categories</a>
+            <a href="#">Products</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>More On Us</h3>
+
+            <a href="about.html">About us</a>
+            <a href="news.html">Blog/News</a>
+            <a href="services.html">Services</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <p>Email: rajirazaq500@gmail.com</p>
+            <p>Phone: 09030469209</p>
+            <p>Location: 21 AVA street, GMT Software building</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>© 2026 Razzy Carts. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+<script src="JS folder/script.js"></script>
+<script src="JS folder/cart.js"></script>
+<script src="JS folder/whislist.js"></script>
+<script src="JS folder/script.js"></script>
+</body>
+</html>
