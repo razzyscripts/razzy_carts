@@ -26,7 +26,7 @@ Welcome to **Razzy Carts**, a modern e-commerce website project designed to show
 
 ### 🏠 Home Page
 
-![Home Page](Screenshot 2026-08-11 111359.png)
+<img width="1893" height="927" alt="Screenshot 2026-08-11 111359" src="https://github.com/user-attachments/assets/f87371e2-ad56-46c5-8a9e-7c7f0fef24a4" />
 
 ### 🛍️ Categories
 
