@@ -30,19 +30,33 @@ Welcome to **Razzy Carts**, a modern e-commerce website project designed to show
 
 ### 🛍️ Categories
 
-Add your Categories screenshot here.
+<img width="1816" height="939" alt="image" src="https://github.com/user-attachments/assets/be851cbe-7704-4668-a8bb-ba0ad20a858c" />
+
 
 ### 📦 Products
 
-Add your Products screenshot here.
+<img width="1894" height="949" alt="image" src="https://github.com/user-attachments/assets/5cb04449-f4b8-4cee-86a3-5c50e5f1e6b1" />
+
+
+### 🧾 Account
+
+<img width="1891" height="938" alt="image" src="https://github.com/user-attachments/assets/f695ba16-bbd3-48d1-8a84-efce19fc1b54" />
+
+
+### 🛒 Cart
+
+<img width="1894" height="950" alt="image" src="https://github.com/user-attachments/assets/b898336f-21ad-4896-b4bd-1024e292d656" />
+
 
 ### 📰 News
 
-Add your News screenshot here.
+<img width="1893" height="945" alt="image" src="https://github.com/user-attachments/assets/d724c0e7-71dc-435e-aa3e-5bff5888725e" />
+
 
 ### ℹ️ About Us
 
-Add your About Us screenshot here.
+<img width="1895" height="926" alt="image" src="https://github.com/user-attachments/assets/55dacb0a-264a-41d6-9bfa-9a5d3f9260c3" />
+
 
 ## 📁 Project Structure
 
