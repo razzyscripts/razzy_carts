@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+         <div class="logo-text">
+        Razzy <span>Carts</span>
+    </div>
+
+    <svg class="logo-arrow" viewBox="0 0 220 35">
+        <path d="M15 28 Q110 2 205 18" />
+        <polygon points="198,12 218,18 199,25" />
+    </svg>
+    </div>
+
+    <div class="search-box">
+
+    <select class="category">
+        <option>All</option>
+    </select>
+
+    <input type="text" placeholder="Search Razzy Carts">
+
+    <button type="button">🔍</button>
+
+</div>
+
+    <div class="header-links">
+
+        <a href="index.html"> 
+            <i class="fa-solid fa-house"></i>
+            Home
+
+        </a>
+
+        <a href="account.html">
+            <i class="fa-solid fa-user"></i>
+            Account
+        </a>
+
+        <a href="wishlist.html" class="wishlist-link">
+    ♡ Wishlist <span id="wishlist-count">0</span>
+</a>
+
+        <a href="cart.html" class="cart-link">
+    🛒 Cart <span id="cart-count">0</span>
+</a>
+
+    </div>
+
+</header>
+<!-- ================= SECOND NAVIGATION ================= -->
+<div class="second-nav">
+
+    <div class="nav-left">
+
+        <a href="Categories/categorie.html" class="dropbtn">
+    <i class="fa-solid fa-bars"></i>
+    All Categories
+</a>
+
+        <a href="#featured-products">Featured Products</a>
+
+        <a href="news.html">Blog</a>
+
+        <a href="services.html">Services</a>
+
+    </div>
+
+    <div class="nav-right">
+
+        <a href="Categories/backtoschool.html">
+            🔥 Back-to-School Sale - Up to 50% Off
+        </a>
+
+    </div>
+
+</div>
+ <!-- CONTACT HERO -->
+    <section class="contact-hero">
+
+        <div>
+
+            <span class="contact-tag">WE'RE HERE TO HELP</span>
+
+            <h1>Need Help With Your Order?</h1>
+
+            <p>
+                Have a question about your order, delivery, or products?
+                Get in touch with the Razzy Carts team.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT CONTENT -->
+    <main class="contact-container">
+
+        <div class="contact-grid">
+
+
+            <!-- CONTACT INFORMATION -->
+            <section class="contact-info">
+
+                <h2>Let's Talk 👋</h2>
+
+                <p>
+                    Whether you have a question about your order or just
+                    want to know more about Razzy Carts, we're here to help.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📧
+                    </div>
+
+                    <div>
+                        <h3>Email</h3>
+                        <p>support@razzycarts.com</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📞
+                    </div>
+
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+234 800 123 4567</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+                        <h3>Location</h3>
+                        <p>Nigeria</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        🕒
+                    </div>
+
+                    <div>
+                        <h3>Support Hours</h3>
+                        <p>Monday - Saturday · 8AM - 6PM</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- CONTACT FORM -->
+            <section class="contact-form-card">
+
+                <div class="form-heading">
+
+                    <h2>Send Us a Message</h2>
+
+                    <p>
+                        Fill out the form and we'll get back to you.
+                    </p>
+
+                </div>
+
+
+                <form>
+
+                    <div class="contact-input-row">
+
+                        <div class="contact-input">
+
+                            <label>First Name</label>
+
+                            <input
+                                type="text"
+                                placeholder="Your first name"
+                            >
+
+                        </div>
+
+
+                        <div class="contact-input">
+
+                            <label>Last Name</label>
+
+                            <input
+                                type="text"
+                                placeholder="Your last name"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-input">
+
+                        <label>Email Address</label>
+
+                        <input
+                            type="email"
+                            placeholder="you@example.com"
+                        >
+
+                    </div>
+
+
+                    <div class="contact-input">
+
+                        <label>Order Number</label>
+
+                        <input
+                            type="text"
+                            placeholder="Optional"
+                        >
+
+                    </div>
+
+
+                    <div class="contact-input">
+
+                        <label>Message</label>
+
+                        <textarea
+                            rows="6"
+                            placeholder="How can we help?"
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="send-message-button">
+                        Send Message →
+                    </button>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>Razzy Carts</h3>
+
+            <p>Your one-stop destination for shopping, gaming, electronics and more.</p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="Categories/categorie.html">Categories</a>
+            <a href="#">Products</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>More On Us</h3>
+
+            <a href="about.html">About us</a>
+            <a href="news.html">Blog/News</a>
+            <a href="services.html">Services</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <p>Email: rajirazaq500@gmail.com</p>
+            <p>Phone: 09030469209</p>
+            <p>Location: 21 AVA street, GMT Software building</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>© 2026 Razzy Carts. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+<script src="JS folder/script.js"></script>
+<script src="JS folder/cart.js"></script>
+<script src="JS folder/whislist.js"></script>
+<script src="JS folder/script.js"></script>
+</body>
+</html>

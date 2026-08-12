@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+         <div class="logo-text">
+        Razzy <span>Carts</span>
+    </div>
+
+    <svg class="logo-arrow" viewBox="0 0 220 35">
+        <path d="M15 28 Q110 2 205 18" />
+        <polygon points="198,12 218,18 199,25" />
+    </svg>
+    </div>
+
+    <div class="search-box">
+
+    <select class="category">
+        <option>All</option>
+    </select>
+
+    <input type="text" placeholder="Search Razzy Carts">
+
+    <button type="button">🔍</button>
+
+</div>
+
+    <div class="header-links">
+
+        <a href="index.html"> 
+            <i class="fa-solid fa-house"></i>
+            Home
+
+        </a>
+
+        <a href="account.html">
+            <i class="fa-solid fa-user"></i>
+            Account
+        </a>
+
+        <a href="wishlist.html" class="wishlist-link">
+    ♡ Wishlist <span id="wishlist-count">0</span>
+</a>
+
+        <a href="cart.html" class="cart-link">
+    🛒 Cart <span id="cart-count">0</span>
+</a>
+
+    </div>
+
+</header>
+<!-- ================= SECOND NAVIGATION ================= -->
+<div class="second-nav">
+
+    <div class="nav-left">
+
+        <a href="Categories/categorie.html" class="dropbtn">
+    <i class="fa-solid fa-bars"></i>
+    All Categories
+</a>
+
+        <a href="#featured-products">Featured Products</a>
+
+        <a href="news.html">Blog</a>
+
+        <a href="services.html">Services</a>
+
+    </div>
+
+    <div class="nav-right">
+
+        <a href="Categories/backtoschool.html">
+            🔥 Back-to-School Sale - Up to 50% Off
+        </a>
+
+    </div>
+
+</div>
+<!-- CHECKOUT PAGE -->
+    <main class="checkout-container">
+
+        <div class="checkout-title">
+            <h1>Complete Your Order</h1>
+            <p>You're almost there! Review your order and complete checkout.</p>
+        </div>
+
+
+        <div class="checkout-grid">
+
+
+            <!-- PAYMENT SECTION -->
+            <section class="payment-card">
+
+                <div class="section-heading">
+                    <div class="step-number">1</div>
+
+                    <div>
+                        <h2>Payment Method</h2>
+                        <p>Choose how you'd like to pay</p>
+                    </div>
+                </div>
+
+
+                <!-- PAYMENT OPTIONS -->
+                <div class="payment-options">
+
+                    <label class="payment-option active">
+
+                        <input type="radio" name="payment" checked>
+
+                        <div class="payment-icon">
+                            💳
+                        </div>
+
+                        <div class="payment-info">
+                            <strong>Card Payment</strong>
+                            <span>Visa, Mastercard or Verve</span>
+                        </div>
+
+                    </label>
+
+
+                    <label class="payment-option">
+
+                        <input type="radio" name="payment">
+
+                        <div class="payment-icon">
+                            📱
+                        </div>
+
+                        <div class="payment-info">
+                            <strong>Mobile Payment</strong>
+                            <span>Pay with a mobile wallet</span>
+                        </div>
+
+                    </label>
+
+
+                    <label class="payment-option">
+
+                        <input type="radio" name="payment">
+
+                        <div class="payment-icon">
+                            🏦
+                        </div>
+
+                        <div class="payment-info">
+                            <strong>Bank Transfer</strong>
+                            <span>Pay directly from your bank</span>
+                        </div>
+
+                    </label>
+
+                </div>
+
+
+                <!-- DEMO CARD DETAILS -->
+                <div class="card-details">
+
+                    <div class="demo-notice">
+                        ⚡ Demo Payment — No real payment will be processed.
+                    </div>
+
+                    <div class="input-group">
+
+                        <label>Cardholder Name</label>
+
+                        <input
+                            type="text"
+                            placeholder="Enter your name"
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label>Card Number</label>
+
+                        <div class="card-input">
+
+                            <input
+                                type="text"
+                                placeholder="1234 5678 9012 3456"
+                            >
+
+                            <span>💳</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+
+                            <label>Expiry Date</label>
+
+                            <input
+                                type="text"
+                                placeholder="MM / YY"
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label>CVV</label>
+
+                            <input
+                                type="text"
+                                placeholder="•••"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BILLING -->
+                <div class="billing-section">
+
+                    <div class="section-heading">
+
+                        <div class="step-number">
+                            2
+                        </div>
+
+                        <div>
+
+                            <h2>Billing Information</h2>
+
+                            <p>Where should we send your order?</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+
+                            <label>First Name</label>
+
+                            <input
+                                type="text"
+                                placeholder="First name"
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label>Last Name</label>
+
+                            <input
+                                type="text"
+                                placeholder="Last name"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label>Address</label>
+
+                        <input
+                            type="text"
+                            placeholder="Enter your address"
+                        >
+
+                    </div>
+
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+
+                            <label>City</label>
+
+                            <input
+                                type="text"
+                                placeholder="City"
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label>Phone Number</label>
+
+                            <input
+                                type="text"
+                                placeholder="Phone number"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <a href="contact.html">
+                <button class="place-order-button">
+                    🔒 Place Order
+                </button>
+                </a>
+
+            </section>
+            <aside class="order-summary">
+
+    <div class="summary-header">
+
+        <h2>Order Summary</h2>
+
+        <span id="payment-item-count">0 Items</span>
+
+    </div>
+
+
+    <!-- PRODUCTS WILL BE LOADED FROM THE CART -->
+
+    <div id="payment-products">
+
+    </div>
+
+
+    <!-- COUPON -->
+
+    <div class="coupon-box">
+
+        <input
+            type="text"
+            id="promo-code"
+            placeholder="Promo code"
+        >
+
+        <button type="button" id="apply-promo">
+            Apply
+        </button>
+
+    </div>
+
+
+    <!-- TOTALS -->
+
+    <div class="summary-totals">
+
+        <div>
+
+            <span>Subtotal</span>
+
+            <strong id="payment-subtotal">
+                $0.00
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>Delivery</span>
+
+            <strong id="payment-delivery">
+                $0.00
+            </strong>
+
+        </div>
+
+
+        <div>
+
+            <span>Discount</span>
+
+            <strong
+                class="discount"
+                id="payment-discount">
+
+                -$0.00
+
+            </strong>
+
+        </div>
+
+    </div>
+
+
+    <!-- FINAL TOTAL -->
+
+    <div class="total-line">
+
+        <span>Total</span>
+
+        <strong id="payment-total">
+            $0.00
+        </strong>
+
+    </div>
+
+
+    <!-- SECURITY -->
+
+    <div class="secure-message">
+
+        🔒 <strong>Safe & Secure</strong>
+
+        <p>
+            This is a demonstration checkout
+            for the Razzy Carts project.
+        </p>
+
+    </div>
+
+</aside>
+
+        </div>
+
+    </main>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>Razzy Carts</h3>
+
+            <p>Your one-stop destination for shopping, gaming, electronics and more.</p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="Categories/categorie.html">Categories</a>
+            <a href="#">Products</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>More On Us</h3>
+
+            <a href="about.html">About us</a>
+            <a href="news.html">Blog/News</a>
+            <a href="services.html">Services</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <p>Email: rajirazaq500@gmail.com</p>
+            <p>Phone: 09030469209</p>
+            <p>Location: 21 AVA street, GMT Software building</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>© 2026 Razzy Carts. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+<script src="JS folder/script.js"></script>
+<script src="JS folder/cart.js"></script>
+<script src="JS folder/whislist.js"></script>
+<script src="JS folder/script.js"></script>
+<script src="JS folder/pay.js"></script>
+</body>
+</html>
