@@ -23,7 +23,8 @@ The home page introduces Razzy Carts and includes:
 - Shopping cart
 - Wishlist
 
-![Razzy Carts Home Page](Images/home.png)
+<img width="1893" height="927" alt="Screenshot 2026-08-11 111359" src="https://github.com/user-attachments/assets/a89bf8fc-f40a-4448-9ec0-3fdd1ea8e8c3" />
+
 
 ---
 
@@ -31,7 +32,9 @@ The home page introduces Razzy Carts and includes:
 
 The About Us page provides information about Razzy Carts and the purpose of the website.
 
-![Razzy Carts About Page](Images/about.png)
+<img width="1895" height="926" alt="Screenshot 2026-08-11 114359" src="https://github.com/user-attachments/assets/e28b9568-62dc-4385-9369-392c58d3d9bb" />
+
+
 
 ---
 
@@ -39,7 +42,8 @@ The About Us page provides information about Razzy Carts and the purpose of the 
 
 The Categories section allows users to browse different product categories.
 
-![Razzy Carts Categories](Images/categories.png)
+<img width="1816" height="939" alt="Screenshot 2026-08-11 113808" src="https://github.com/user-attachments/assets/bc897cc8-28ef-4c17-ab18-539602082369" />
+
 
 ---
 
@@ -53,7 +57,8 @@ The Products page displays products with their:
 - Add to Cart buttons
 - Product information
 
-![Razzy Carts Products](Images/products.png)
+<img width="1894" height="949" alt="Screenshot 2026-08-11 113937" src="https://github.com/user-attachments/assets/c5b944c2-ee69-45f6-9928-c76ab2e0752e" />
+
 
 ---
 
@@ -69,7 +74,8 @@ It also allows users to:
 - View the total price
 - Proceed to checkout
 
-![Razzy Carts Cart](Images/cart.png)
+<img width="1894" height="950" alt="Screenshot 2026-08-11 114233" src="https://github.com/user-attachments/assets/80170ba4-1b96-4118-8661-82634492f51d" />
+
 
 ---
 
@@ -90,7 +96,8 @@ It includes:
 
 The checkout page automatically updates based on the products in the user's cart using JavaScript.
 
-![Razzy Carts Payment Page](Images/pay.png)
+<img width="1875" height="920" alt="image" src="https://github.com/user-attachments/assets/35eed04e-071c-4b8e-b1e5-e75869271ccd" />
+
 
 ---
 
@@ -98,7 +105,8 @@ The checkout page automatically updates based on the products in the user's cart
 
 The Contact page allows users to find contact information and get in touch with Razzy Carts.
 
-![Razzy Carts Contact Page](Images/contact.png)
+<img width="1897" height="932" alt="image" src="https://github.com/user-attachments/assets/7e7ed604-fab7-494f-b904-788deb627e09" />
+
 
 ---
 
@@ -106,7 +114,8 @@ The Contact page allows users to find contact information and get in touch with 
 
 The Wishlist page allows users to save products they are interested in.
 
-![Razzy Carts Wishlist](Images/wishlist.png)
+<img width="1876" height="944" alt="image" src="https://github.com/user-attachments/assets/43ef5552-0a36-405d-b257-bef74128136d" />
+
 
 ---
 
@@ -114,7 +123,10 @@ The Wishlist page allows users to save products they are interested in.
 
 The Blog/News page contains articles and updates related to shopping, technology, and Razzy Carts.
 
-![Razzy Carts News Page](Images/news.png)
+
+<img width="1893" height="945" alt="Screenshot 2026-08-11 114310" src="https://github.com/user-attachments/assets/2bd189c1-0320-4817-8efb-29860fa1a885" />
+
+
 
 ---
 
@@ -122,7 +134,9 @@ The Blog/News page contains articles and updates related to shopping, technology
 
 The Services page highlights the different services offered by Razzy Carts.
 
-![Razzy Carts Services](Images/services.png)
+
+<img width="1883" height="831" alt="Screenshot 2026-08-12 111213" src="https://github.com/user-attachments/assets/b36cbbed-6c16-49b3-91f5-d838308c09d3" />
+
 
 ---
 
